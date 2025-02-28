@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="smoke" verbose="1">
+    <test name="analytics">
+        <classes>
+            <class name="testclass.AnalyticsTest"/>
+        </classes>
+    </test>
+    <test name="reviewers">
+        <classes>
+            <class name="testclass.ReviewersTest"/>
+        </classes>
+    </test>
+    <test name="assessment">
+        <classes>
+            <class name="testclass.AssessmentTest"/>
+        </classes>
+    </test>
+</suite>
